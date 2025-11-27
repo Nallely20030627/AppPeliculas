@@ -1,0 +1,127 @@
+/* Estilos generales */
+body {
+    background-color: #f8f9fa;
+}
+
+/* Navbar personalizado */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+.navbar-dark.bg-dark {
+    background: linear-gradient(to right, #1a1a1a, #333333) !important;
+}
+
+/* Cards y contenedores */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 15px rgba(0,0,0,.08);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Botones personalizados */
+.btn-primary {
+    background: linear-gradient(to right, #007bff, #0056b3);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.btn-danger {
+    background: linear-gradient(to right, #dc3545, #c82333);
+    border: none;
+}
+
+/* Tablas */
+.table {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,.05);
+}
+
+.table thead th {
+    background-color: #343a40;
+    color: white;
+    border: none;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0,0,0,.02);
+}
+
+/* Formularios */
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 5px rgba(0,123,255,.25);
+    border-color: #80bdff;
+}
+
+/* Footer */
+#footer {
+    background: linear-gradient(to right, #1a1a1a, #333333) !important;
+    color: white !important;
+}
+
+#footer .text-muted {
+    color: rgba(255,255,255,.75) !important;
+}
+
+/* Grid view */
+.grid-view {
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,.05);
+}
+
+/* Breadcrumbs */
+.breadcrumb {
+    background: transparent;
+    padding: 10px 0;
+}
+
+/* Alertas */
+.alert {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,.1);
+}
+
+/* Vista detalle */
+.detail-view {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,.05);
+}
+
+/* Animaciones para transiciones */
+.nav-link, .btn {
+    transition: all 0.3s ease;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 20px;
+    }
+    
+    .container {
+        padding: 0 15px;
+    }
+}

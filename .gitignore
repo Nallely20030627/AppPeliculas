@@ -1,0 +1,121 @@
+# Yii2 Framework Files
+# =====================
+
+# Runtime files
+/runtime/*
+!/runtime/.gitignore
+
+# Assets
+/web/assets/*
+!/web/assets/.gitignore
+
+# Uploaded files
+/web/uploads/*
+!/web/uploads/.gitignore
+
+# Vendor directory (dependencies)
+/vendor/*
+!/vendor/.gitignore
+
+# Composer files
+composer.phar
+composer.lock
+
+# Environment & Configuration
+# ===========================
+.env
+/config/db-local.php
+/config/params-local.php
+/config/web-local.php
+/config/console-local.php
+
+# IDE & Editor Files
+# ==================
+
+# PhpStorm / IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# NetBeans
+nbproject/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Eclipse
+.project
+.buildpath
+.settings/
+
+# OS Files
+# ========
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.directory
+
+# Testing & Debug
+# ===============
+
+# Codeception
+/tests/_output/*
+!/tests/_output/.gitignore
+/tests/_support/_generated
+
+# PHPUnit
+.phpunit.result.cache
+
+# Debug files
+*.log
+error.log
+access.log
+
+# Logs
+# ====
+/runtime/logs/*
+!/runtime/logs/.gitignore
+
+# Temporary files
+# ===============
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Node modules (if using npm/yarn for frontend)
+# ==============================================
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Build files
+# ===========
+/web/css/*.map
+/web/js/*.map
