@@ -1,2 +1,2 @@
 # basic
-Video App Nina
+Aplicacion de peliculas.
